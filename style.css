@@ -1,0 +1,199 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gilda Display', serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding-top: 33px;
+}
+.container {
+    width: 945px;
+    display: flex;
+    margin: 0 auto;
+} 
+.header-nav ul{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 88px;
+    line-height: 88px;
+}
+.header-nav li+li{
+    margin-left:157.5px;
+    
+}
+.header-nav a{
+    font-size: 18px;
+    color: #828282;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-nav a:hover{
+    color:black;
+}
+hr{
+    display: flex;
+    width: 940.6px;
+    height: 2px;
+    border:none;
+    background: #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.main-container{
+    width: 945px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.row {
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.text-1{
+    height: 118.17px;
+    font-size: 47px;
+    line-height: 59px;
+    color: #070707;
+    font-weight: bold;
+}
+.text-2{
+    height: 118.17px;
+    font-size: 18px;
+    color: #070707;
+    padding-top: 90px; 
+}
+.text-3{
+    height: 20.06px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+}
+.text-3 a{
+    text-decoration: none;
+    color:#828282;
+}
+.text-3 a:hover{
+    color:#070707;
+}
+.img-container{
+    width: 945px;
+    margin: 0 auto;
+    margin-top:60px;
+}
+.about{
+    margin-top:104px;
+    height: 506px;
+    background: #F6F6F6;
+    text-align: center;
+    
+}
+.about-h1{
+    padding-top: 120px;
+    display: inline-block;
+    width: 155.65px;
+    height: 43.06px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.about-cont{
+    margin: 0 auto;
+    width:486px;
+    height: 218px;
+}
+p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.skills{
+    height: 610px;
+}
+.skills-h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+    padding-bottom: 49px;
+}
+.skills-img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top:94px;
+}
+.partfolio {
+    margin: 0;
+    height: 880px;
+    background: #F6F6F6;
+}
+.partfolio-h1 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    font-weight: bold;
+    padding-top: 113px;
+}
+.partfolio-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 45px;
+}
+.reebok-img{
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    background: #F6F6F6;
+}
+.reebok-text{
+    display: inline-block;
+    padding-top: 45px;
+    background: #F6F6F6;    
+}
+.footer{
+    height: 622px;
+}
+.footer-h1{
+   
+    text-align: center;
+    padding-top: 90px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+    padding-bottom: 49px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+img{
+    margin-top: 61px;
+    margin-left:60px;
+}
+.footer-link{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:#fff;
+    border-radius:50px;
+    width: 180.5px;
+    height: 42px;
+    line-height:42px ;
+    background:#070707;   
+    margin: 0 auto;
+}
